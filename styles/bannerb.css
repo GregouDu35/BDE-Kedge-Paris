@@ -1,0 +1,21 @@
+.bannerb {
+    height: 35vh;
+    background-image: url("../image/Bureau.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bannerb h1, .bannerb p{
+color: white;
+text-shadow: 1px 1px 7px black;
+text-align: center;
+}
+
+.bannerb a {
+    color: white;
+}

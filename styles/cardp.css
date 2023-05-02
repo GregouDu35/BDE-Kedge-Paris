@@ -1,0 +1,43 @@
+.card-pres {
+    background-color: rgb(122, 106, 117);
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.cardp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card-pres img {
+    width: 100%;
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .cardp {
+        grid-template-columns: 1fr;}
+    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .cardp {
+        grid-template-columns: 1fr 1fr;}
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .cardp {
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+ }
+ .card-presh1, h2, h3, h4, h5, a, p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    }
+
+    .pablo {
+display: flex;
+justify-content: center;
+
+    }
